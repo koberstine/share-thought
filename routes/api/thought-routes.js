@@ -24,7 +24,7 @@ router.route('/:id')
 router.route('/:userId/:thoughtId').delete(removeThought);  
 
 // /api/thoughts/<thoughtId>/reactions
-router.route('/:thoughtId/reactions').post(addReaction);
+router.route('/:thoughtId/reactions').post(addReaction); // expects {"reactionBody": "", "username": ""}
 
 // /api/thoughts/<thoughtId>/reactions/<reactionId>
 router.route('/:thoughtId/reactions/:reactionId').delete(removeReaction);
