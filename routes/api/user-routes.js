@@ -13,7 +13,7 @@ const {
 router
   .route('/')
   .get(getAllUser)
-  .post(createUser); //expects {"username": "JohnDoe", "email": "johndoe@noemail.com"}
+  .post(createUser); //expects {"username": "", "email": ""}
 
 // /api/users/:id
 router
@@ -24,7 +24,7 @@ router
 
 // /api/users/<userId>/friends/<friendId>
 router
-  .route('/:userId/friend/:friendId')
+  .route('/:userId/friends/:friendId')
   .post(addFriend)
   .delete(removeFriend);
 
