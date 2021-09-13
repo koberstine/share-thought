@@ -11,6 +11,7 @@ Back-end for a social netwoork that allows users to create thoughts, react to th
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployed-App](#deployed-app)
 - [Demonstration](#demonstration)
 - [License](#license)
 - [Contributing](#contributing)
@@ -37,6 +38,10 @@ Navigate in console to main directory of project, run 'npm start'
 ## Credits
 
 Code written by Chris Koberstine as an assignment for UCF Coding Boot Camp, University of Central Florida
+
+## Deployed-App
+
+https://vast-shore-81150.herokuapp.com/
 
 ## Demonstration
 
