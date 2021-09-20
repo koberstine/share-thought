@@ -4,7 +4,7 @@
 
 ## Description
 
-Back-end for a social netwoork that allows users to create thoughts, react to thoughts and add other users as friends. This is accomplished using MongoDB with Mongoose object modeling to handle unstructured data and Node.js with Express.js for the network and routing. The project has no front-end at this time.
+Back-end for a social network that allows users to create thoughts, react to thoughts and add other users as friends. This is accomplished using MongoDB with Mongoose object modeling to handle unstructured data and Node.js with Express.js for the network and routing. The project has no front-end at this time.
 
 ## Table of Contents
 
