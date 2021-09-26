@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 
@@ -19,5 +20,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
 mongoose.set('debug', true);
 
 app.use(require('./routes'));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './index.html'));
+});
 
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
