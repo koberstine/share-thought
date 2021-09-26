@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Share Thought</h1>
+    <p>Back-end for a social netwoork that allows users to create thoughts, react to thoughts and add other users as friends.</p>
+    <p>API Routes</p>
+    <ul>
+      <li>/api/users to get all users or post a user</li>
+      <li>/api/users/userId to get a one user by ID, update a user or delete a user</li>
+      <li>/api/users/:userId/friends/:friendId to add or delete a friend</li>
+      <li>/api/thoughts to get all thoughts or post a thought</li>
+      <li>/api/thoughts/thoughtId to get one thought by ID or update a thought</li>
+      <li>/api/thoughts/:userId/:thoughtId to delete a thought</li>
+      <li>/api/thoughts/:thoughtId/reactions to add a reaction</li>
+      <li>/api/thoughts/:thoughtId/reactions/:reactionId to remove a reaction</li>
+    </ul>
+  </body>
+</html>
